@@ -2,7 +2,7 @@
 let i = 0;
 
 const messageInterval = setInterval(() => {
-  //   alert("Hello world");
+    alert("Hello world");
   i += 1;
   if (i === 4) {
     clearInterval(messageInterval);
