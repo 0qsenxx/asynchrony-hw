@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* !1 */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+/* !3 */
+.game__button {
+    margin-top: 40px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.game__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 180px;
+}
+
+.game__item {
+    background-color: blueviolet;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}

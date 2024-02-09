@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- !2 -->
+    <div class="box"></div>
+
+    <!-- !3 -->
+    <button type="button" class="game__button" data-button="startGame">
+      Start game
+    </button>
+    <!-- <button type="button" class="game__button" data-button="stopGame">Stop game</button> -->
+    <h2 data-counter="game"></h2>
+
+    <ul class="game__list">
+      <li class="game__item"></li>
+      <li class="game__item"></li>
+      <li class="game__item"></li>
+      <li class="game__item"></li>
+    </ul>
+
+    <!-- !4 -->
+    <form data-form="messageDuration">
+      <input
+        type="text"
+        data-input="message"
+        placeholder="Message"
+        name="message"
+      />
+      <input
+        type="number"
+        data-input="durationMessage"
+        placeholder="Message duration"
+        name="messageDuration"
+      />
+      <button type="submit">Send message</button>
+    </form>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
